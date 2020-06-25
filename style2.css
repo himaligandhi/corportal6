@@ -1,0 +1,157 @@
+html, body {
+    height: 100%;
+    font-size: 0.9rem;
+  }
+
+body{
+  background-color: #1F1B71;
+  color:ffffff;
+}
+h1{
+  color:#fabd07;
+}
+form{
+  color:white;
+  
+}
+.form-group label{
+  font-weight: 650;
+  font-size: 1.2em;
+}
+.form-check-inline{
+  text-align: center;
+}
+.form-check-inline label{
+  margin: 0 20px 0;
+}
+fieldset.group  { 
+  margin: 0; 
+  padding: 0; 
+  margin-bottom: 1.25em; 
+  padding: .125em; 
+} 
+ul.checkbox  { 
+  margin: 0; 
+  padding: 0; 
+  margin-left: 20px; 
+  list-style: none; 
+} 
+
+ul.checkbox li input { 
+  margin-right: .50em; 
+} 
+
+ul.checkbox li { 
+  /* border: 1px transparent solid;  */
+  display:inline-block;
+  width:18em;
+} 
+
+ul.checkbox li label { 
+  margin-left: 0; 
+} 
+ul.checkbox li:hover, 
+ul.checkbox li.focus  { 
+  /* background-color: lightyellow;  */
+  /* border: 1px gray solid;  */
+  width: 18em; 
+} 
+.custom-control{
+  font-size:1.2em;
+  font-weight: 650;
+}
+
+.checkbox input{
+  margin-right: .50em;
+}
+  
+  /* h1 {
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+  } */
+  
+  /* .form-row {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .form-row .form-group {
+    padding: 15px 15px 0;
+    align-self: flex-end;
+  }
+  
+  .form-group {
+    position: relative;
+    padding-top: 15px;
+    margin-bottom: 30px;
+
+  }
+  
+  .form-control {
+    border: 0;
+    border-radius: 0;
+    padding: 10px 10px;
+    background-color: transparent;
+    position: relative;
+    z-index: 2;
+    font-size: 0.9rem;
+    color:yellow;
+  }
+  .form-control:not(textarea) {
+    height: 44px;
+  } */
+  /* .form-control + label {
+    position: absolute;
+    z-index: 1;
+    top: 25px;
+    margin: 0;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    pointer-events: none;
+    left: 10px;
+    right: 10px;
+  }
+  .form-control:focus {
+    box-shadow: none;
+    background-color: transparent;
+    
+  }
+  .form-control:focus + label {
+    color:white;
+  }
+  .form-control:focus + label, .form-control.has-value + label {
+    font-size: 0.75rem;
+    top: 0;
+  }
+  
+  .no-js .form-control + label {
+    font-size: 0.75rem;
+    top: 0;
+  }
+  
+  .form-row .form-control + label {
+    left: 25px;
+    right: 25px;
+  }
+  .form-row .line {
+    left: 15px;
+    right: 15px;
+  }
+  
+ 
+  .form-control:focus ~ .line:after {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+  
+  select.form-control:not([size]), .checkbox {
+    height: 44px;
+  }
+  .slidecontainer {
+    width: 100%;
+  }
+  
+   */
+/* .combo-label {margin-bottom:.5em;}  */
